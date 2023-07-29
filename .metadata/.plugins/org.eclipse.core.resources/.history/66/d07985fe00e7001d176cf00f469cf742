@@ -1,0 +1,21 @@
+#spring.datasource.url=jdbc:mysql://localhost:3306/pets?useSSL=false
+#spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.datasource.username=demo
+#spring.datasource.password=Demo@123
+#
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+#spring.jpa.hibernate.ddl-auto=update
+#spring.jpa.show-sql=true
+
+
+
+server.tomcat.accesslog.enabled=true
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+
+spring.datasource.url=jdbc:postgresql://dpg-ch4q9t2ut4m6jh8ug8pg-a.oregon-postgres.render.com:5432/database_render_patterns_dms_3v25
+spring.datasource.username=database_render_patterns_dms_kpb0_user
+spring.datasource.password=wY8n7kCmlVCZngf17b8xtdbZ9QUdzqVa
+spring.datasource.driver-class-name=org.postgresql.Driver
